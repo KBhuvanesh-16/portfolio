@@ -271,7 +271,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #443d3d;
 }
 .services .title::before,
 .teams .title::before{
@@ -279,8 +279,8 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
-    content: "what i provide";
+    /* background: #fcfcfc;
+    content: "what i provide"; */
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -563,6 +563,18 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+
+.las{
+    
+    margin-left: 65vh;
+   
+  
+}
+.las img{
+
+height: 25px;
+width: 25px;
 }
 
 /* .heading{
